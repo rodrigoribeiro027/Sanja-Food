@@ -1,0 +1,76 @@
+.container-cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title-cadastro{
+    color: #FFFBE9;
+    font-size: 3rem;
+    margin-top: 8rem;
+}
+
+.cadastro-form{
+    background-color: #E3CAA5;
+    border-radius: 10px;
+    width: 35%;
+    margin-top: 11%;
+}
+
+.input-text2{
+    width:85%;
+}
+
+.p-input-icon-right > .p-inputtext {
+    padding-right: 3.4rem;
+}
+
+.p-password input {
+    width:28.5rem;
+}
+
+.footer-espacamento{
+    margin-top: 10rem;
+}
+
+.form-container-cadastro{
+    font-size: 25px;
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    color: #FFFBE9;
+
+}
+
+.p-button{
+    background: #FFFBE9;
+    width: 80%;
+    color: #000000;
+    border: none;
+    margin-left: 8.9% !important;
+    margin-top: 3% !important;
+}
+
+.p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: #fef6d7;
+    color: #000000;
+    border: none;
+}
+
+.others-options{
+    font-size: 60% !important;
+    color: #FFFBE9;
+    text-decoration: none;
+}
+
+.others-options:hover{
+    color: #fef6d7;
+}
+
+.textp{
+    margin-top:5% ;
+}
+
+
+.teste{
+    padding: 1rem;
+}

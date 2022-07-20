@@ -6,9 +6,12 @@ import './index.css';
 import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";
 import "primereact/resources/themes/tailwind-light/theme.css";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Cadastro from './Components/Cadastro/cadastro';
+
 
 function App() {
+
   return (
       <div className='content'>
         <BrowserRouter>
@@ -17,8 +20,9 @@ function App() {
           </NavBar>
           <Routes> 
 
-              <Route  path='/' element={<Login/>}/>
-
+              <Route  path='/Login' element={<Login/>}/>
+              <Route  path='/Cadastro' element={<Cadastro/>}/>
+            
           </Routes>       
           <Footer>
           </Footer>
