@@ -1,0 +1,33 @@
+.container-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.title-login{
+    color: #FFFBE9;
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+.icon-login{
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.login-form{
+    background-color: #E3CAA5;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 7rem;
+}
+
+.inputs{
+    width: 70%;
+    
+}
+
+.footer-espacamento{
+    margin-top: 7rem;
+}

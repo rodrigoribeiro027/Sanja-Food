@@ -1,9 +1,34 @@
 
-.social{
-    background-color: #8B7B63;
+.container{
+    background-color: #AD8B73;
+    display: flex;
+    color: #FFFBE9;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.autoria{
+    background-color: #CEAB93 !important;
+    text-align: center;
+    width: 100% !important;
+    padding: 0.8rem;
+    font-size: 1.2rem;
     color: #FFFBE9;
 }
 
-.created{
-    background-color: #CEAB93 !important;
+.footer-items{
+    text-align: center;
+    font-size: 2.2rem;
 }
+
+.icon{
+    width: 50px;
+    padding:4px;
+    cursor: pointer;
+}
+
