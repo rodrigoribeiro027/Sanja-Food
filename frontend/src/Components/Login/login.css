@@ -1,33 +1,74 @@
 .container-login{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 
 .title-login{
     color: #FFFBE9;
     font-size: 4rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
+
 .icon-login{
-    width: 70%;
+    width: 65%;
     margin-top: 2rem;
+    margin-left: 17%;
 }
 
 .login-form{
     background-color: #E3CAA5;
     border-radius: 10px;
     width: 30%;
-    margin-top: 7rem;
+    margin-top: 11rem;
 }
 
-.inputs{
-    width: 70%;
-    
+.input-text{
+    width:85%;
+}
+
+.p-input-icon-right > .p-inputtext {
+    padding-right: 3.4rem;
+}
+
+.p-password input {
+    width:28.5rem;
 }
 
 .footer-espacamento{
-    margin-top: 7rem;
+    margin-top: 10rem;
+}
+
+.form-container{
+    font-size: 2rem;
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+    color: #FFFBE9;
+
+}
+
+.p-button{
+    background: #FFFBE9;
+    width: 72.5%;
+    color: #000000;
+    border: none;
+    margin-left: 14% !important;
+    margin-top: 3% !important;
+}
+
+.p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: #fef6d7;
+    color: #000000;
+    border: none;
+}
+
+.others-options{
+    font-size: 60% !important;
+    color: #FFFBE9;
+    text-decoration: none;
+}
+
+.others-options:hover{
+    color: #fef6d7;
 }

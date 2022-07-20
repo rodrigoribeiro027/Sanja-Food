@@ -1,0 +1,22 @@
+{
+  "name": "sanja-food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd frontend && npm start",
+    "dev": "cd backend && nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoribeiro027/Sanja-Food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoribeiro027/Sanja-Food/issues"
+  },
+  "homepage": "https://github.com/rodrigoribeiro027/Sanja-Food#readme"
+}
